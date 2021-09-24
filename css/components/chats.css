@@ -1,0 +1,47 @@
+.chats-list {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.chats-list__team:first-child {
+  display: flex;
+}
+
+.chats-list__photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+
+.chats-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chats-list__text {
+  margin-top: 25px;
+}
+
+.chats-list__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chats-list__time {
+  margin-top: 18px;
+}
+
+.dot {
+  background-color: rgb(209, 58, 31);
+  color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 40px;
+}
